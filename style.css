@@ -3,8 +3,8 @@
 }
 
 body{
-  background-color: black;
-  font-family: 'Roboto',sans-serif;
+  background-color: blue;
+  font-family: 'Time News Roman',sans-serif;
   display: flex;
  
   justify-content: center;
@@ -16,7 +16,7 @@ body{
 .name {
   font-size: 40px;
   display: flex;
-  color: white;
+  color: blue;
   justify-content: center;
   align-items: center;
 	text-transform: uppercase;
@@ -36,12 +36,12 @@ body{
   height: 50px;
 }
 .im{
-  color: black;
+  color: red;
   text-decoration: none;
 
 }
 .im-white{
-  color: white;
+  color: blue;
   text-decoration: none;
   background-color: black;
   border-radius: 10px;
