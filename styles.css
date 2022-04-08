@@ -12,6 +12,20 @@ body{
 	line-height: 20px;
 }
 
+.baslık{
+	color: #26252d;
+	font-weight: 800;
+
+}
+.altbaslık{
+	color: #26252d;
+	font-weight: 600;
+}
+.altbaslıkk{
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 600;
+}
 .resume_wrapper{
 	display: flex;
 	width: 800px;
@@ -21,7 +35,7 @@ body{
 }
 
 .resume_wrapper .resume_left{
-	width: 35%;
+	width: 39%;
 	background: #26252d;
 }
 
@@ -59,6 +73,12 @@ body{
 .resume_wrapper  .resume_item:last-child{
 	border-bottom: 0;
 }
+
+.resume_wrapper .resume_space{
+	padding: 8px 0;
+
+}
+
 
 .resume_wrapper .resume_left .resume_namerole{
 	display: none;
@@ -102,7 +122,7 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: #0db201;
+	background: #0175b2;
 	width: 100%;
 	height: 100%;
 }
@@ -131,15 +151,41 @@ body{
 }
 
 .resume_wrapper .resume_right .resume_data .year{
-	padding-right: 35px;
+	padding-right:10px;
 	width: 115px;
 	position: relative;
+}
+
+.resume_wrapper .resume_right .resume_proje{
+	display: flex;
+}
+
+.resume_wrapper .resume_right .resume_proje .year{
+	padding-right:35px;
+	width: 15px;
+	position: relative;
+}
+.resume_wrapper .resume_right .resume_proje .content{
+	padding-left: 20px;
+	margin-bottom: 8px;
+	width: calc(100% - 15px);
 }
 
 .resume_wrapper .resume_right .resume_data .content{
 	padding-left: 35px;
 	margin-bottom: 10px;
 	width: calc(100% - 115px);
+}
+.resume_wrapper .resume_right .resume_proje .year:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #26252d;
+	border-radius: 50%;
 }
 
 .resume_wrapper .resume_right .resume_data .year:before{
@@ -153,6 +199,15 @@ body{
 	border: 1px solid #26252d;
 	border-radius: 50%;
 }
+.resume_wrapper .resume_right .resume_proje .year:after{
+	content: "";
+	position: absolute;
+	top: 17px;
+	right: 4px;
+	width: 3px;
+	height: 90%;
+	background: #0175b2;
+}
 
 .resume_wrapper .resume_right .resume_data .year:after{
 	content: "";
@@ -165,6 +220,9 @@ body{
 }
 
 .resume_wrapper .resume_right .resume_data:last-child .year:after{
+	display: none;
+}
+.resume_wrapper .resume_right .resume_proje:last-child .year:after{
 	display: none;
 }
 
