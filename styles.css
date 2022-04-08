@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 *{
 	margin: 0;
 	padding: 0;
@@ -39,10 +37,10 @@ body{
 .resume_wrapper .resume_title{
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 1000;
 	font-size: 16px;
 	margin-bottom: 10px;
-	letter-spacing: 4px;
+	letter-spacing: 1px;
 }
 
 .resume_wrapper .resume_left .resume_info{
@@ -69,7 +67,6 @@ body{
 .resume_wrapper .resume_namerole .name{
 	font-size: 20px;
 	color: #fff;
-	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 5px;
 	letter-spacing: 4px;
@@ -123,7 +120,6 @@ body{
 
 .resume_wrapper .resume_right .resume_namerole .role{
 	font-size: 14px;
-	text-transform: uppercase;
 }
 
 .resume_wrapper .resume_right .resume_item .resume_title{
